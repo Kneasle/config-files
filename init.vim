@@ -1,6 +1,6 @@
 inoremap <C-B> <C-X><C-O>
 
-let mapleader = ","
+let mapleader = " "
 set showcmd
 
 " Formatting definitions: always use 4 spaces as indentation
