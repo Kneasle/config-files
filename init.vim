@@ -20,8 +20,9 @@ set hidden
 " Don't hightlight everything after I use search to jump around
 set nohlsearch
 
-" Use a nice default colour scheme
-colo torte
+" Use a nice default colour scheme, and force true colour
+colo evening
+set termguicolors
 
 " ==== COC ====
 " Goto
@@ -45,7 +46,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
-" Highlighting
+" Tweaks to the colour scheme to make Coc work better
 hi Pmenu ctermbg=DarkGrey ctermfg=White
 hi PmenuSel ctermbg=LightBlue ctermfg=Black cterm=italic
 
