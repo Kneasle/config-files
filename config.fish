@@ -18,6 +18,7 @@ set PROGRAMMING $DOCUMENTS/programming
 set PY $PROGRAMMING/python
 set RUST $PROGRAMMING/rust
 set MLP $PROGRAMMING/multi-language-projects
+set CONFIG_FILES $PROGRAMMING/config-files
 
 # Python projects
 set WHEATLEY $PY/ringing/wheatley
