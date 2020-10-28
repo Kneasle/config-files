@@ -29,6 +29,7 @@ set CROUPIER $RUST/croupier
 set HERMIONE $RUST/hermione
 set SAPLING $RUST/sapling
 set WIKI_LINKS $RUST/wiki-links
+set SHORTLIST $RUST/shortlist
 
 # Multi-language projects
 set METAIMAGE $MLP/meta-image
