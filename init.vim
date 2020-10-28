@@ -64,3 +64,7 @@ hi CocWarningSign ctermfg=Yellow cterm=italic,bold guifg=#ffff00 gui=italic,bold
 
 hi CocErrorFloat ctermfg=Red cterm=bold guifg=#ff0000 gui=bold
 hi CocErrorSign ctermfg=Red cterm=italic,bold guifg=#ff0000 gui=italic,bold
+
+" Force transparent background
+hi Normal ctermbg=None guibg=None
+hi NonText ctermfg=None guibg=None
